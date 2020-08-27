@@ -1,4 +1,4 @@
-package urlshortner
+package urlshortener
 
 type Redirect struct {
 	Code 		string `json:"code" bson:"code" msgpack:"code"`

@@ -1,4 +1,4 @@
-package urlshortner
+package urlshortener
 
 type RedirectSerializer interface {
 	Decode(input []byte)(*Redirect, error)

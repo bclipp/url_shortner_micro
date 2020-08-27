@@ -1,4 +1,4 @@
-package urlshortner
+package urlshortener
 
 import (
 	"errors"
