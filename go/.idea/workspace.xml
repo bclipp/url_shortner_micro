@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bac3f91-49ea-47c1-9771-e5179941e218" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/urlshortner/logic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/urlshortner/serializer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/urlshortner/logic.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/urlshortner/logic.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -44,5 +44,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="882" y="183" width="1016" height="738" key="SettingsEditor" timestamp="1598499281503">
+      <screen x="0" y="27" width="1920" height="1052" />
+    </state>
+    <state x="882" y="183" width="1016" height="738" key="SettingsEditor/0.27.1920.1052@0.27.1920.1052" timestamp="1598499281503" />
   </component>
 </project>

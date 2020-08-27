@@ -3,6 +3,9 @@ package urlshortner
 import (
 	"errors"
 	"time"
+	errs "github.com/pkg/errors"
+	"github.com/teris-io/shortid"
+	"gopkg.in/dealancer/validate.v2"
 )
 
 var (
@@ -29,6 +32,6 @@ func (r *redirectService) Store(redirect *Redirect) error {
 		return errs.Wrap(ErrRedirectInvalid, "service.Redirect.Store")
 	}
 	redirect.Code = shortid.MustGenerate()
-	redirect.CreateAt = time.Now().UTC().Unix()
+	redirect.CreatedAt = time.Now().UTC().Unix()
 	return r.redirectRepo.Store(redirect)
 }
